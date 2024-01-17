@@ -75,7 +75,7 @@ jobs:
         run: |
           cd yaml/was
           kustomize edit set image cicd-image=${{ secrets.DOCKERHUB_USERNAME }}/rapa-cicdlab:v${{ env.RELEASE_VERSION }}
-          cat kustomization.yml
+          cat kustomization.yaml
               
       - name: Commit & Push Image 
         uses: actions-js/push@master
