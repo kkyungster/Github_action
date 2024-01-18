@@ -6,6 +6,6 @@ resources:
 - 02was.yaml
 images:
 - name: cicd-image
-  newName: kkyungjin/rapa-cicdlab
-  newTag: v12
+  newName: public.ecr.aws/o7v7w4z5/was
+  newTag: v13
 namespace: default
