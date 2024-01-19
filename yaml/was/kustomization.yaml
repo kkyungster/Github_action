@@ -8,4 +8,4 @@ images:
 - name: cicd-image
   newName: kkyungjin/rapa_was
   newTag: v2
-namespace: default
+
