@@ -6,6 +6,5 @@ resources:
 - 02was.yaml
 images:
 - name: cicd-image
-  newName: kkyungjin/rapa_was
-  newTag: v2
-
+  newName: public.ecr.aws/o7v7w4z5/was
+  newTag: v17
