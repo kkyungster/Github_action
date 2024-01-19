@@ -7,5 +7,5 @@ resources:
 images:
 - name: cicd-image
   newName: public.ecr.aws/o7v7w4z5/was
-  newTag: v14
+  newTag: v15
 namespace: default
